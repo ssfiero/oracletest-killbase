@@ -1,4 +1,4 @@
-const config = require('./knexfile.js')['production'];
+const config = require('./knexfile.js')['development'];
 // console.log('Envir: ', process.env.ENVIRONMENT);
 const knex = require('knex')(config);
 const path = require('path');
